@@ -1,7 +1,7 @@
 const Routes = {
   AboutMe: '/about-me',
   Skills: '/skills',
-  Experiences: '/experiences',
+  Experiences: '/experience',
   Education: '/education',
   Projects: '/projects',
   Contact: '/contact',

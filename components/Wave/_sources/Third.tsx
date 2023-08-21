@@ -6,8 +6,8 @@ export default function Third({ ...props }) {
   return (
     <svg
       width="1280"
-      height="238"
-      viewBox="0 0 1280 238"
+      height="200"
+      viewBox="0 0 1280 200"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
