@@ -19,8 +19,8 @@ export default function SunMoon() {
   });
 
   return (
-    <button onClick={handleClick} className="absolute top-[30px] left-[30px]">
-      {isDarkMode ? <Moon /> : <Sun />}
+    <button onClick={handleClick} className="absolute top-[30px] left-[30px] animate-spin-slow">
+      {isDarkMode ? <Moon/> : <Sun/>}
     </button>
   );
 }

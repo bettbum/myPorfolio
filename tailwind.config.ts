@@ -29,6 +29,7 @@ const config: Config = {
         "bounce-1s": "bounce 2s linear infinite",
         "bounce-2s": "bounce 4s linear infinite",
         "bounce-1.5s": "bounce 1.5s linear infinite",
+        "spin-slow": "spin 7s linear infinite",
       }
     },
   },
