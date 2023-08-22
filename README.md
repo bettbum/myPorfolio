@@ -1,4 +1,3 @@
-This site is the homepage of Cachep Technologies.
 All about the framework implementation please access to the [NextJS](https://nextjs.org/)
 
 ## Getting Started

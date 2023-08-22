@@ -1,0 +1,6 @@
+{
+  "fitstep_desc": "Developed, implemented, and tested an Android application for school projects.\nManaged configuration and documentation procedures.\nTechnologies: Java, Firebase.\nTools: Android Studio, GitHub.",
+  "codenames_desc": "Designed and developed an Android Application based on the Codenames Game.\nUsed Real-time Database to have interaction between players.\nTechnologies used: Java, Firebase.\nTools used: Visual Studio, Firebase, GitHub.",
+  "plantdict_desc": "Designed and developed an IOS Application to search for a specific plant and save its information.\nUsed.\nFirebase Authentication and  called API from Perennial.\nTechnologies used: Swift, FirebaseAuthentication, Firebase Realtime Database.\nTools used: Xcode, Firebase, GitHub.",
+  "manageyourtask_desc": "Study real-life scenarios for managing daily tasks  and teamwork.\nDesigned the website structure, and setup reusable components, and optimize performance.\nDesigned Restful APIs and connect with the database.\nTechnologies used: React, Sass, ExpressJS, MongoDB.\nTools used: Visual Studio Code, Studio3T, GitHub, Heroku,  Postman."
+}

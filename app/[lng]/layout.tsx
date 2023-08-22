@@ -13,14 +13,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children, params 
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode,
+  params : {lng:'en'}
 }) {
   return (
     <html lang="en" data-theme="light">
       <body className={jura.className}>
-        <Header />
+        <Header params={params}/>
         <Wrapper>{children}</Wrapper>
         <Footer />
       </body>
