@@ -9,6 +9,7 @@ import ChangeLanguage from '../ChangeLanguage';
 export default async function HeadRouter({ params: { lng = 'en' } }) {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useTranslation(lng);
+  const lngReverse = lng === 'en' ? "Français" : "English"
   return (
     <div className={classNames('flex justify-end', margin.header)}>
       {map(Routes, (href, key) => {
@@ -18,7 +19,7 @@ export default async function HeadRouter({ params: { lng = 'en' } }) {
           </HeaderLink>
         );
       })}
-      <ChangeLanguage title={t`lng`} lng={lng}/>
+      <ChangeLanguage title={lngReverse} lng={lng}/>
     </div>
   );
 }
