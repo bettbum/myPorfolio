@@ -5,6 +5,7 @@ import map from 'lodash/map';
 import HeaderLink from 'components/HeaderLink';
 import { useTranslation } from '@/app/i18n';
 import ChangeLanguage from '../ChangeLanguage';
+import DownloadCV from '../DownloadCV';
 
 export default async function HeadRouter({ params: { lng = 'en' } }) {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -19,6 +20,7 @@ export default async function HeadRouter({ params: { lng = 'en' } }) {
           </HeaderLink>
         );
       })}
+      <DownloadCV/>
       <ChangeLanguage title={lngReverse} lng={lng}/>
     </div>
   );
