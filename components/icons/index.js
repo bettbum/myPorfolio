@@ -1,4 +1,9 @@
 export { default as Codename } from './Codename';
 export { default as Dict } from './Dict';
+export { default as Github } from './Github';
 export { default as Health } from './Health';
+export { default as Linkedin } from './Linkedin';
+export { default as Location } from './Location';
+export { default as Mail } from './Mail';
+export { default as Phone } from './Phone';
 export { default as Task } from './Task';

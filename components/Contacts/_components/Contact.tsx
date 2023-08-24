@@ -1,0 +1,10 @@
+export default function Contact({content, Img}:{content: String, Img: any}) {
+    return (
+      <div className="collapse-title text-xl font-medium flex flex-row items-center justify-end">
+        <div className="text-neutral font-bold">{content} </div>
+        <div className="w-[1.6rem] h-[1.6rem] rounded-full border-[0.15rem] border-neutral mx-[1rem] flex items-center justify-center">
+          {Img}
+        </div>
+      </div>
+    );
+  }
