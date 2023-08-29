@@ -108,7 +108,7 @@ export default function Skills() {
     },
   ];
   return (
-    <div className="my-[40px] ml-[500px] mr-[50px] h-full">
+    <div className="mt-[6rem] mb-[6rem] max-lg:mt-[2rem]">
       {data.map((each, index) => {
         return (
           <Skill key={each.skill} {...each}/>

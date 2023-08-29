@@ -1,4 +1,5 @@
 'use client';
+import classNames from 'classnames';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -14,8 +15,14 @@ export default function HeaderLink({
   ...props
 }: HeaderLinkPrototype) {
   const pathname = usePathname();
+  const max_lg_style = 'max-lg:ml-0';
   return (
-    <div className="px-[10px] pb-[10px] ml-[32px] relative">
+    <div
+      className={classNames(
+        'px-[10px] pb-[10px] ml-[32px] relative',
+        max_lg_style
+      )}
+    >
       <Link href={href} {...props}>
         <span className="text-neutral">{children}</span>
       </Link>

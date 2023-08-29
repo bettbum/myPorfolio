@@ -6,8 +6,8 @@ export default function FirstWave({ ...props }) {
   return (
     <svg
       width="1280"
-      height="300"
-      viewBox="0 0 1280 300"
+      height="280"
+      viewBox="0 0 1280 280"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}

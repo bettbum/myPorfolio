@@ -10,7 +10,7 @@ export default function Projects({data} : {data: {
     desc : string
 }[]}) {
   return (
-    <div className="my-[40px] ml-[500px] mr-[50px] h-full">
+    <div className="mt-[6rem] mb-[6rem] max-lg:mt-[2rem]">
       {data.map((each, index) => {
         return (
           <div className="flex flex-col" key={index}>

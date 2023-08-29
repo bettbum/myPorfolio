@@ -4,7 +4,7 @@ export default function Page() {
     const classIcons = 'fill-neutral w-[18px] h-[18px]'
     const data = [
         {
-            "content": "Based in Montreal, QC, Canada",
+            "content": "Montreal, QC, Canada",
             "Img": <Location className={classIcons}/>
         },
         {

@@ -1,5 +1,5 @@
 const margin = {
-    header: "mt-[65px] mr-[65px] text-right"
+    header: "sm:mt-[65px] lg:px-[65px]"
 }
 
 export default margin;

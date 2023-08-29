@@ -8,8 +8,8 @@ export default function Skill({
     <div className="flex flex-col ">
       <div className="collapse">
         <input type="radio" name="my-accordion-1" />
-        <div className="collapse-title text-xl font-medium flex flex-row items-center justify-end">
-          <div className="text-neutral font-bold">{skill} </div>
+        <div className="collapse-title text-xl font-medium flex flex-row items-center justify-end max-sm:text-lg">
+          <div className="text-neutral font-bold whitespace-nowrap">{skill} </div>
           <div className="w-[1.6rem] h-[1.6rem] rounded-full border-[0.15rem] border-neutral mx-[1rem]" />
         </div>
         <div className="collapse-content text-right pr-[6.5rem] relative">
